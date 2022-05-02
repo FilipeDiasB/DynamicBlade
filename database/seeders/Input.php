@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class Input extends Seeder
 {
@@ -12,10 +13,20 @@ class Input extends Seeder
      */
     public function run()
     {
-//        \App\Models\Input::insert([
-//                                      [
-//                                          'component' => 'input',
-//                                      ],
-//                                  ]);
+        $inputs = [
+            [
+                'id'          => 1,
+                'component'   => 'input',
+                'label'       => 'Nome',
+                'name'        => 'nome',
+                'placeholder' => 'Nome',
+                'form_id'     => 1,
+
+            ],
+        ];
+
+        foreach ($inputs as $input) {
+            \App\Models\Input::insert($input);
+        }
     }
 }
