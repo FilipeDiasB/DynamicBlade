@@ -13,4 +13,9 @@ class Form extends Model
     {
         return $this->hasMany(Input::class);
     }
+
+    public function radios()
+    {
+        return $this->hasMany(Radio::class);
+    }
 }
