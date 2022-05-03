@@ -4,21 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>DynamicBlade</title>
 </head>
 <body>
-
 @foreach($form->inputs as $input)
-    <x-dynamic-component :component="$input['component']" :input="$input"/>
+    <x-dynamic-component :component="$input['component']" :input="$input" class="mt-2 ml-2"/>
 @endforeach
 
 @foreach($form->radios as $radio)
-    <x-dynamic-component :component="$radio['component']" :radio="$radio"/>
+    <x-dynamic-component :component="$radio['component']" :radio="$radio" class="ml-2"/>
 @endforeach
+
+
 </body>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="{{ url(mix('backend/assets/js/jquery.js')) }}"></script>
+<script src="{{ url(mix('backend/assets/js/libs.js')) }}"></script>
+<script src="{{ url(mix('backend/assets/js/scripts.js')) }}"></script>
+
+<script>
+
+    $(document).ready(function(){
+       $('#homem').on('click', function (){
+           if ($(this).prop("checked")){
+               $('#mulherInput').prop("disabled", true)
+           } else {
+               $('#mulherInput').prop("disabled", false)
+           }
+       });
+
+        $('#mulher').on('click', function (){
+            if ($(this).prop("checked")){
+                $('#homemInput').prop("disabled", true)
+            } else {
+                $('#homemInput').prop("disabled", false)
+            }
+        });
+
+    });
+
+</script>
 </html>
 

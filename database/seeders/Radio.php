@@ -16,9 +16,14 @@ class Radio extends Seeder
             [
                 'id'        => 1,
                 'component' => 'radio',
-                'name'      => 'nome',
-                'form_id'   => 2,
-
+                'name'      => 'Sim',
+                'form_id'   => 1,
+            ],
+            [
+                'id'        => 2,
+                'component' => 'radio',
+                'name'      => 'Não',
+                'form_id'   => 1,
             ],
         ];
 
