@@ -16,11 +16,7 @@ class Form extends Seeder
             [
                 'id'    => 1,
                 'title' => 'Cadastro',
-            ],
-            [
-                'id'    => 2,
-                'title' => 'Radios',
-            ],
+            ]
         ];
 
         foreach ($forms as $form) {

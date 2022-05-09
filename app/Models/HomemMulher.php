@@ -5,12 +5,14 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Form extends Model
+class HomemMulher extends Model
 {
     use HasFactory;
 
-    public function inputs()
-    {
-        return $this->hasMany(Input::class);
-    }
+    protected $fillable = [
+      'homem_input',
+      'mulher_input',
+      'mulher',
+      'homem',
+    ];
 }

@@ -13,5 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'FormCadastroController@index')->name('index');
+Route::get('/create', 'HomemMulherController@create')->name('criarHM');
+Route::post('/salvar', 'HomemMulherController@store')->name('salvarHM');
 

@@ -1,18 +1,5 @@
 {
-    "/backend/assets/css/style.css": "/backend/assets/css/style.css?id=cf91d141de80a783d1ac45ed8aa116fe",
-    "/backend/assets/css/login.css": "/backend/assets/css/login.css?id=f3d59518a164f9dccc5e1b64ecada453",
-    "/backend/assets/css/boot.css": "/backend/assets/css/boot.css?id=d1a5aa60631565813aa2e52960ade183",
-    "/backend/assets/css/reset.css": "/backend/assets/css/reset.css?id=12209f82c8276df51b140729e6e21f4d",
-    "/backend/assets/css/libs.css": "/backend/assets/css/libs.css?id=e475e7021e891f029879be92175d8f2a",
-    "/backend/assets/js/jquery.js": "/backend/assets/js/jquery.js?id=a09e13ee94d51c524b7e2a728c7d4039",
-    "/backend/assets/js/scripts.js": "/backend/assets/js/scripts.js?id=66aa7114f282c45b8fa446cf736d6a9d",
-    "/backend/assets/js/libs.js": "/backend/assets/js/libs.js?id=dd07b3fbc557107ef512be62d8fb8c9c",
-    "/backend/assets/css/js/tinymce/jquery.tinymce.min.js": "/backend/assets/css/js/tinymce/jquery.tinymce.min.js?id=9b2d0d5043bfca69bd99c268f744b1b3",
-    "/backend/assets/css/js/tinymce/license.txt": "/backend/assets/css/js/tinymce/license.txt?id=045d04e17422d99e338da75b9c749b7c",
-    "/backend/assets/css/js/tinymce/tinymce.json": "/backend/assets/css/js/tinymce/tinymce.json?id=e8fc375c09787023fc4380cf2a160b35",
-    "/backend/assets/css/js/tinymce/tinymce.min.js": "/backend/assets/css/js/tinymce/tinymce.min.js?id=bb16520a021ae170a7019675f2f5f81f",
-    "/backend/assets/css/fonts/upadmin.eot": "/backend/assets/css/fonts/upadmin.eot?id=0132d0160b1db210bf419dcc6548ea70",
-    "/backend/assets/css/fonts/upadmin.svg": "/backend/assets/css/fonts/upadmin.svg?id=5a4fb5a33ed7e1cd46858a38392986ce",
-    "/backend/assets/css/fonts/upadmin.ttf": "/backend/assets/css/fonts/upadmin.ttf?id=b9283f9311ccec49f6cba084c2241695",
-    "/backend/assets/css/fonts/upadmin.woff": "/backend/assets/css/fonts/upadmin.woff?id=fd32f6b2e0d7fa163f12097ea9d030be"
+    "/css/bootstrap.css": "/css/bootstrap.css?id=a6cbad80d306eb3c0bb4f88a2b967a44",
+    "/js/jquery.js": "/js/jquery.js?id=2849239b95f5a9a2aea3f6ed9420bb88",
+    "/js/bootstrap.js": "/js/bootstrap.js?id=bb2ab2f5bb58154ca9cc11ea437bfdbb"
 }

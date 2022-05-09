@@ -16,11 +16,36 @@ class Input extends Seeder
         $inputs = [
             [
                 'id'          => 1,
-                'component'   => 'input',
-                'label'       => 'Nome',
-                'name'        => 'nome',
-                'placeholder' => 'Nome',
+                'component'   => 'inputText',
+                'label'       => 'Homem',
+                'name'        => 'homem_input',
+                'placeholder' => 'Homem',
                 'form_id'     => 1,
+
+            ],
+            [
+                'id'          => 2,
+                'component'   => 'inputText',
+                'label'       => 'Nome',
+                'name'        => 'mulher_input',
+                'placeholder' => 'Mulher',
+                'form_id'     => 1,
+
+            ],
+            [
+                'id'        => 3,
+                'component' => 'inputRadio',
+                'label'     => 'Homem',
+                'name'      => 'genero',
+                'form_id'   => 1,
+
+            ],
+            [
+                'id'        => 4,
+                'component' => 'inputRadio',
+                'label'     => 'Mulher',
+                'name'      => 'genero',
+                'form_id'   => 1,
 
             ],
         ];
