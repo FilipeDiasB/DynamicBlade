@@ -5,8 +5,6 @@ namespace App\Http\Controllers;
 use App\Http\Requests\MulherHomemRequest;
 use App\Models\Form;
 use App\Models\HomemMulher;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
 
 class HomemMulherController extends Controller
 {
@@ -27,11 +25,5 @@ class HomemMulherController extends Controller
     {
         $data = $request->validated();
         HomemMulher::create($data);
-        //        DB::table('homem_mulhers')->insert([
-        //                                               'homem_input' => $homem_input,
-        //                                               'mulher_input' => $mulher_input,
-        //                                               'homem' => $homem,
-        //                                               'mulher' => $mulher
-        //                                           ]);
     }
 }

@@ -24,7 +24,7 @@ class MulherHomemRequest extends FormRequest
     public function rules()
     {
         return [
-            'homem_input' => 'required_if:genero,Homem',
+            'homem_input' => 'required_if:genero,Homem|min:5',
             'mulher_input' => 'required_if:genero,Mulher'
         ];
     }

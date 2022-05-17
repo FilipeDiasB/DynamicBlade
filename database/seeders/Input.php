@@ -26,7 +26,7 @@ class Input extends Seeder
             [
                 'id'          => 2,
                 'component'   => 'inputText',
-                'label'       => 'Nome',
+                'label'       => 'Mulher',
                 'name'        => 'mulher_input',
                 'placeholder' => 'Mulher',
                 'form_id'     => 1,

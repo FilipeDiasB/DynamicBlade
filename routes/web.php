@@ -13,6 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/create', 'HomemMulherController@create')->name('criarHM');
-Route::post('/salvar', 'HomemMulherController@store')->name('salvarHM');
-
+Route::get('/', [\App\Http\Controllers\HomemMulherController::class, 'create'])->name('createHM');
+Route::post('/salvar', [\App\Http\Controllers\HomemMulherController::class, 'store'])->name('salvarHM');

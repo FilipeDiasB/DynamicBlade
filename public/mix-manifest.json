@@ -1,5 +1,5 @@
 {
-    "/css/bootstrap.css": "/css/bootstrap.css?id=a6cbad80d306eb3c0bb4f88a2b967a44",
-    "/js/jquery.js": "/js/jquery.js?id=2849239b95f5a9a2aea3f6ed9420bb88",
-    "/js/bootstrap.js": "/js/bootstrap.js?id=bb2ab2f5bb58154ca9cc11ea437bfdbb"
+    "/js/app.js": "/js/app.js",
+    "/js/jquery.js": "/js/jquery.js",
+    "/css/app.css": "/css/app.css"
 }
