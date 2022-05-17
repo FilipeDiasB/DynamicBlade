@@ -49,25 +49,25 @@
             homem.removeClass('d-none')
         }
     })
-    // $('#input-3').on('click', function () {
-    //     if ($(this).prop("checked")) {
-    //         mulher.prop("disabled", true)
-    //         homem.prop("disabled", false)
-    //     } else {
-    //         mulher.prop("disabled", false)
-    //         homem.prop("disabled", true)
-    //     }
-    // });
-    //
-    // $('#input-4').on('click', function () {
-    //     if ($(this).prop("checked")) {
-    //         homem.prop("disabled", true)
-    //         mulher.prop("disabled", false)
-    //     } else {
-    //         homem.prop("disabled", false)
-    //         mulher.prop("disabled", true)
-    //     }
-    // });
+    $('#input-3').on('click', function () {
+        if ($(this).prop("checked")) {
+            mulher.prop("disabled", true)
+            homem.prop("disabled", false)
+        } else {
+            mulher.prop("disabled", false)
+            homem.prop("disabled", true)
+        }
+    });
+
+    $('#input-4').on('click', function () {
+        if ($(this).prop("checked")) {
+            homem.prop("disabled", true)
+            mulher.prop("disabled", false)
+        } else {
+            homem.prop("disabled", false)
+            mulher.prop("disabled", true)
+        }
+    });
 </script>
 </body>
 </html>
